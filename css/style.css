@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background-image: url('../img/bg-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    border-bottom: 70px solid rgba(69, 11, 145, 0.7);
+
+}
+
+.game::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.seiya-action{
+    width: 120px;
+    position: absolute;
+    bottom: 0;
+    transform: rotateY(180deg);
+}
+
+.box-gold {
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+    animation: box-animation 1.5s infinite linear;
+}
+
+.jump-seiya {
+    animation: seiya-animation 500ms ease-out;
+}
+
+.constellation01{
+    position: absolute;
+    width: 80px;
+}
+
+.constellation02{
+    position: absolute;
+    width: 80px;
+}
+
+.constellation03{
+    position: absolute;
+    width: 80px;
+}
+
+.constellation04{
+    position: absolute;
+    width: 80px;
+}
+
+.constellation05{
+    position: absolute;
+    width: 80px;
+}
+
+.constellation06{
+    position: absolute;
+    width: 80px;
+}
+
+.constellation07{
+    position: absolute;
+    width: 80px;
+}
+
+.constellation08{
+    position: absolute;
+    width: 80px;
+}
+
+.constellation09{
+    position: absolute;
+    width: 80px;
+}
+
+.constellation10{
+    position: absolute;
+    width: 80px;
+}
+
+.constellation11{
+    position: absolute;
+    width: 80px;
+}
+
+.constellation12{
+    position: absolute;
+    width: 80px;
+}
