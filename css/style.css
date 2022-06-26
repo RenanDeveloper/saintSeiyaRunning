@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 *{
     margin:0;
     padding: 0;
@@ -29,6 +31,20 @@
     opacity: 0.3;
     z-index: -1;
 }
+
+.img-logo{
+    width: 300px;
+    display: block;
+    margin: 10px auto;
+    margin-bottom: 20px;
+}
+
+#score{
+    text-align: center;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+
 
 .seiya-action{
     width: 120px;
